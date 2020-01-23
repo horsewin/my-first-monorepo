@@ -1,0 +1,29 @@
+{
+  "name": "test1",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "AtsushiUMAKATSU <mamamatz@gmail.com>",
+  "homepage": "https://github.com/horsewin/my-first-monorepo#readme",
+  "license": "ISC",
+  "main": "lib/test1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horsewin/my-first-monorepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/horsewin/my-first-monorepo/issues"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
