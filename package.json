@@ -1,8 +1,13 @@
 {
   "name": "root",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horsewin/my-first-monorepo.git",
+    "directory": "packages/test1"
+  },
   "scripts": {
-        "build": "lerna run tsc && lerna run build",
+    "build": "lerna run tsc && lerna run build",
     "clean": "lerna clean -y",
     "test": "lerna run test",
     "test:local": "API_MODE=localhost npm run test",
@@ -13,7 +18,7 @@
     "versionup:patch": "lerna version patch --conventional-commits",
     "versionup:minor": "lerna version minor --conventional-commits",
     "versionup:major": "lerna version minor --conventional-commits",
-    "release": "lerna publish from-package --registry http://54.95.80.53:4873"
+    "release": "lerna publish from-package --registry https://npm.pkg.github.com"
   },
   "devDependencies": {
     "lerna": "^3.18.3"
