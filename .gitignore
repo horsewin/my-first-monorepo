@@ -1,0 +1,24 @@
+node_modules/
+lerna-debug.log
+npm-debug.log
+packages/*/lib
+.idea
+
+# Copy from web3.js
+# https://github.com/ethereum/web3.js/blob/2.x/.gitignore
+dist/
+.DS_Store
+*.swp
+*/**/*un~
+*un~
+*/**/.DS_Store
+.npm/
+/coverage
+/tmp
+.vscode/
+coverage/
+.eslintcache
+docs/_build
+*/**/*.spec.d.ts
+*/**/*.spec.js
+*/**/*.spec.js.map
