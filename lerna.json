@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "command": {
     "publish": {
-      "registry": "https://npm.pkg.github.com/horsewin",
+      "registry": "http://54.95.80.53:4873",
       "skipGit": true
     }
   }
